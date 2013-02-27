@@ -10,10 +10,28 @@
 		C1BB000316DE336F00093BA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1BB000116DE336F00093BA5 /* Credits.rtf */; };
 		C1BB000616DE336F00093BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BB000516DE336F00093BA5 /* AppDelegate.m */; };
 		C1BB000916DE336F00093BA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BB000716DE336F00093BA5 /* MainMenu.xib */; };
+		C1BB001016DE33C400093BA5 /* MenuBarIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C1BB000F16DE33C400093BA5 /* MenuBarIcon.pdf */; };
+		C1BB001816DE343100093BA5 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1BB001616DE343100093BA5 /* LeapObjectiveC.mm */; };
+		C1BB001C16DE384900093BA5 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB001B16DE384900093BA5 /* libLeap.dylib */; };
 		C1BBFFF316DE336F00093BA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BBFFF216DE336F00093BA5 /* Cocoa.framework */; };
 		C1BBFFFD16DE336F00093BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1BBFFFB16DE336F00093BA5 /* InfoPlist.strings */; };
 		C1BBFFFF16DE336F00093BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BBFFFE16DE336F00093BA5 /* main.m */; };
+		C1D6343D16DE3F7A00DDD77B /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1BB001B16DE384900093BA5 /* libLeap.dylib */; };
+		C1D6344116DE43FC00DDD77B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D6344016DE43FC00DDD77B /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1D6343B16DE3E2100DDD77B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				C1D6343D16DE3F7A00DDD77B /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C1BB000016DE336F00093BA5 /* LeapiTunesControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeapiTunesControl-Prefix.pch"; sourceTree = "<group>"; };
@@ -21,6 +39,12 @@
 		C1BB000416DE336F00093BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1BB000516DE336F00093BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C1BB000816DE336F00093BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C1BB000F16DE33C400093BA5 /* MenuBarIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MenuBarIcon.pdf; sourceTree = "<group>"; };
+		C1BB001216DE343100093BA5 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		C1BB001416DE343100093BA5 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		C1BB001516DE343100093BA5 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		C1BB001616DE343100093BA5 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
+		C1BB001B16DE384900093BA5 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
 		C1BBFFEF16DE336F00093BA5 /* LeapiTunesControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapiTunesControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BBFFF216DE336F00093BA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C1BBFFF516DE336F00093BA5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +53,9 @@
 		C1BBFFFA16DE336F00093BA5 /* LeapiTunesControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeapiTunesControl-Info.plist"; sourceTree = "<group>"; };
 		C1BBFFFC16DE336F00093BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1BBFFFE16DE336F00093BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1D6343E16DE403F00DDD77B /* LogTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogTools.h; sourceTree = "<group>"; };
+		C1D6343F16DE43DE00DDD77B /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		C1D6344016DE43FC00DDD77B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +63,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D6344116DE43FC00DDD77B /* ScriptingBridge.framework in Frameworks */,
 				C1BBFFF316DE336F00093BA5 /* Cocoa.framework in Frameworks */,
+				C1BB001C16DE384900093BA5 /* libLeap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1BB001116DE343100093BA5 /* Leap */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB001216DE343100093BA5 /* Leap.h */,
+				C1BB001416DE343100093BA5 /* LeapMath.h */,
+				C1BB001516DE343100093BA5 /* LeapObjectiveC.h */,
+				C1BB001616DE343100093BA5 /* LeapObjectiveC.mm */,
+			);
+			path = Leap;
+			sourceTree = "<group>";
+		};
 		C1BBFFE616DE336F00093BA5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +103,8 @@
 		C1BBFFF116DE336F00093BA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1BB001B16DE384900093BA5 /* libLeap.dylib */,
+				C1D6344016DE43FC00DDD77B /* ScriptingBridge.framework */,
 				C1BBFFF216DE336F00093BA5 /* Cocoa.framework */,
 				C1BBFFF416DE336F00093BA5 /* Other Frameworks */,
 			);
@@ -84,7 +126,10 @@
 			children = (
 				C1BB000416DE336F00093BA5 /* AppDelegate.h */,
 				C1BB000516DE336F00093BA5 /* AppDelegate.m */,
+				C1D6343E16DE403F00DDD77B /* LogTools.h */,
+				C1D6343F16DE43DE00DDD77B /* iTunes.h */,
 				C1BB000716DE336F00093BA5 /* MainMenu.xib */,
+				C1BB001116DE343100093BA5 /* Leap */,
 				C1BBFFF916DE336F00093BA5 /* Supporting Files */,
 			);
 			path = LeapiTunesControl;
@@ -93,6 +138,7 @@
 		C1BBFFF916DE336F00093BA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1BB000F16DE33C400093BA5 /* MenuBarIcon.pdf */,
 				C1BBFFFA16DE336F00093BA5 /* LeapiTunesControl-Info.plist */,
 				C1BBFFFB16DE336F00093BA5 /* InfoPlist.strings */,
 				C1BBFFFE16DE336F00093BA5 /* main.m */,
@@ -112,6 +158,7 @@
 				C1BBFFEB16DE336F00093BA5 /* Sources */,
 				C1BBFFEC16DE336F00093BA5 /* Frameworks */,
 				C1BBFFED16DE336F00093BA5 /* Resources */,
+				C1D6343B16DE3E2100DDD77B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -156,6 +203,7 @@
 				C1BBFFFD16DE336F00093BA5 /* InfoPlist.strings in Resources */,
 				C1BB000316DE336F00093BA5 /* Credits.rtf in Resources */,
 				C1BB000916DE336F00093BA5 /* MainMenu.xib in Resources */,
+				C1BB001016DE33C400093BA5 /* MenuBarIcon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +216,7 @@
 			files = (
 				C1BBFFFF16DE336F00093BA5 /* main.m in Sources */,
 				C1BB000616DE336F00093BA5 /* AppDelegate.m in Sources */,
+				C1BB001816DE343100093BA5 /* LeapObjectiveC.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +312,16 @@
 		C1BB000D16DE336F00093BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeapiTunesControl/LeapiTunesControl-Prefix.pch";
 				INFOPLIST_FILE = "LeapiTunesControl/LeapiTunesControl-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,10 +330,16 @@
 		C1BB000E16DE336F00093BA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeapiTunesControl/LeapiTunesControl-Prefix.pch";
 				INFOPLIST_FILE = "LeapiTunesControl/LeapiTunesControl-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -294,6 +355,7 @@
 				C1BB000E16DE336F00093BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1BBFFEA16DE336F00093BA5 /* Build configuration list for PBXProject "LeapiTunesControl" */ = {
 			isa = XCConfigurationList;
